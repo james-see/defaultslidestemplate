@@ -1,5 +1,7 @@
 cd templates
 echo "Running the test remark js slide deck example."
 folder="${1:-.}"
-echo "$folder"
+# echo "$folder"
 python3 -m http.server -d "$folder"
+
+## to run do simply ./runlocal.sh mycoolslide
