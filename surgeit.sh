@@ -1,7 +1,7 @@
 rm -rf public/*
 foldertocopy="${1:-.}"
 cp templates/"$foldertocopy"/index.html public/
-cp surge/CNAME public/
+cp templates/"$foldertocopy"/CNAME public/
 cd public
 git yolo
 surge
